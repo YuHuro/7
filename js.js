@@ -15,13 +15,6 @@ for(let i = 0; i < a.length; i++){
 
 const mapA = changeA.map(item => item ** 2);
 
-let index = 0
-
-for(i = 0; i < mapA.length; i++){
-    if(mapA[i] === 324){
-        index = i
-        break;
-    }
-}
+let index = mapA.indexOf(324)
 
 console.log(index);
