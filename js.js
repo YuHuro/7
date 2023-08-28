@@ -25,21 +25,4 @@ function calc(){
         }
     }
 }
-
-<<<<<<< HEAD
 equal.addEventListener('click', calc)
-=======
-let changeA = []
-
-for(let i = 0; i < a.length; i++){
-    if(a[i] % 3 === 0){
-        changeA.push(a[i])
-    }
-};
-
-const mapA = changeA.map(item => item ** 2);
-
-let index = mapA.indexOf(324)
-
-console.log(index);
->>>>>>> b4b07bee839d210757863d0c07fbe25b50fb9794
